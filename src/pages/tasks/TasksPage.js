@@ -87,7 +87,7 @@ class TasksPage extends Component {
     return (
       <TasksWrapper>
         <TasksHeader>
-          <Title>Get things done.</Title>
+          <Title>Get things done. Fighting!!</Title>
 
           <CreateButtonContainer>
             <Fab
