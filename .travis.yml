@@ -15,8 +15,7 @@ deploy:
   env: "TaskManagement-env"
   bucket_name: "elasticbeanstalk-us-east-1-983941970964"
   bucket_path: "Task management"
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: 
-    secure: "$AWS_SECRET_KEY"
   on:
     branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
